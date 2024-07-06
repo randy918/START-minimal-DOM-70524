@@ -22,7 +22,7 @@
 
 html {
   background: red;
-  block: inline-block;
+  // block: inline-block;
   font-family: "Light";
   background: red;
   color: black;
@@ -33,35 +33,3 @@ html {
 }
 
 //_ ████████████████████████████████████  ACTUAL JS03 CSS
-
-img {
-
-  padding: var(--spacing);
-  background: var(--base);
-  filter: blur(var(--blur));
-
-}
-
-.hl {
-
-  color: var(--base);
-
-}
-
-.controls {
-
-margin-bottom: 5rem;
-
-}
-
-a {
-
-  color: var(--base);
-text-decoration: none;
-}
-
-input {
-
-  width: 10rem;
-
-}
