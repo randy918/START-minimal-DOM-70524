@@ -1,15 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
-    <title>DOM vs. Javascript</title>
+    <title>Accessing Elements</title>
   </head>
 
   <body>
-    <h1>What is Shivoo?</h1>
+<h1 id = 'main'>Accessing Elements</h1>
 
-    <p>Find out by clicking the button below</p>
+<!-- > ███████████████████████████████████ SECTION 1-  --> 
+<h2>Using the ID (#header)</h2>
+<div id = "header">Access by using <strong>getElementByID()</strong></div>
 
-    <button onclick="newWindow()">Curious</button>
+<!-- > ████████████████████████████████████ SECTION 2-  -->
+<h2>Using the Class (.header)</h2>
+<div class="header">1. Access this by using <strong></strong></div>
+<div class="header">2. Access this by using <strong></strong></div>
+
+<!-- > ████████████████████████████████████ SECTION 3-  -->
+
+<h2>Using the Tag (paragraph tag)</h2>
+<p>1. Access this by using <strong>getElementsByTagName()</strong></p>
+<p>2. Access this by using <strong>getElementsByTagName()</strong></p>
+
+<!-- > ████████████████████████████████████ SECTION 4-  -->
+<h2>Using the Query Selector (with ID of 'query')</h2>
+<div id="query">1 Access this by using <strong> querySelector()</strong></div>
+
+<!-- > ████████████████████████████████████ SECTION 5-  -->
+ <h2>Using the Query Selector All (with class of 'query-all'</h2>
+<div class="query-all">1. Access this by using <strong>querySelectorAll()</strong></div>
 
     <script src="js/index.js"></script>
   </body>
