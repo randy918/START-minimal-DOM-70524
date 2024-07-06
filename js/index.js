@@ -42,13 +42,14 @@ document.querySelector('#query').style.backgroundColor = 'yellow';
 
 let allQuery = document.querySelectorAll('.query-all');
 
+allQuery.forEach(q => q.style.backgroundColor = 'yellow');
 
-for(let i = 0; i < allQuery.length; i++){
+// for(let i = 0; i < allQuery.length; i++){
     
-    document.querySelectorAll('.query-all')[i].style.backgroundColor = 'yellow';
+//     document.querySelectorAll('.query-all')[i].style.backgroundColor = 'yellow';
 
 
-}
+
 
 //_$ ████████████████████████████████████  QUERY SELECTORS
 
