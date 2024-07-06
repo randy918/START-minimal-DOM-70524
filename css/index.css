@@ -1,0 +1,47 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/Acorn-Bold.woff");
+}
+@font-face {
+  font-family: "Light";
+  src: url("../fonts/Acorn-Light.woff");
+}
+html {
+  background: red;
+  block: inline-block;
+  font-family: "Light";
+  background: red;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+.controls {
+  margin-bottom: 5rem;
+}
+
+a {
+  color: var(--base);
+  text-decoration: none;
+}
+
+input {
+  width: 10rem;
+}/*# sourceMappingURL=index.css.map */
